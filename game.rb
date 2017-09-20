@@ -1,7 +1,4 @@
-require './text'
 require './system'
-require 'json'
-require 'pry'
 
 class Game
 
