@@ -1,7 +1,6 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
 require_relative './game'
-require 'pry'
 
 game = Game.new
 game.start_game
