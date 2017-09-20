@@ -1,0 +1,121 @@
+body {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.game, .picture {
+  display: inline-block;
+  margin: 20px 60px;
+  height: 800px;
+}
+
+.game {
+  width: 620px;
+}
+
+.picture {
+  float: right;
+  width: 620;
+}
+
+
+header {
+  margin: 0 auto 50 auto;
+  text-align: center;
+  display: block;
+  height: 100px;
+  width: 600;
+  border: black solid 2px;
+  font-size: 35;
+}
+
+h1 {
+  line-height: 0;
+}
+
+.word_to_display {
+  font-size: 50px;
+  /* display: block; */
+  /* border: black 1px solid; */
+  height: 80px;
+  width: 550px;
+  margin: 30px auto 5px auto;
+  line-height: 50%;
+}
+
+.display {
+  font-size: 23px;
+  margin: 20px auto;
+  display: block;
+  height: 200px;
+  width: 500;
+  /*border: black solid 2px;*/
+}
+
+.count {
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+.display h4 {
+  display: block;
+  padding: 10px;
+  height: 30px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.forms {
+  border: black 1px solid;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.letter_input {
+  height: 20px;
+  width: 30px;
+}
+
+.start, .submit {
+  width: 130px;
+  height: 30px;
+  padding: 5px;
+}
+
+.ok {
+  width: 40px;
+  height: 30px;
+}
+
+.ok_input {
+  width: 50px;
+}
+
+.letter {
+  width: 150px;
+}
+
+.letter_text {
+  font-size: 18px;
+}
+
+
+.form_elements {
+  line-height: 50%;
+  margin: 15px auto;
+}
+
+.message {
+  font-size: 20px;
+  border: red 1px solid;
+  margin-top: 10px;
+}
+
+.message p {
+  padding-left: 20px;
+}
+
+.used_letters {
+  font-size: 20px;
+  padding-top: 10px;
+}

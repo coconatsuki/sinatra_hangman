@@ -1,0 +1,56 @@
+<html>
+<head>
+  <link rel="stylesheet" href="./main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+<body>
+  <main>
+  <div class="game">
+    <header>
+      <h1>The Hangman</h1>
+    </header>
+    <div class="display">
+      <h4>Word to guess :</h4>
+      <p class="word_to_display">
+        <%= word_to_display %>
+      </p>
+      <p class="count">
+        You can still play <%= count %> times.
+      </p>
+    </div>
+    <div class="forms">
+
+      <form action='/add_letter'>
+        <div class="letter form_elements">
+          <label class="letter_text" for="letter">Choose a letter :</label>
+          <input class="letter_input" type='text' name='letter' id="letter" autofocus/>
+        </div>
+        <div class="ok_input form_elements">
+          <input class="ok" type='submit' value='Ok' />
+        </div>
+      </form>
+      <form action="/reset">
+        <div class="start form_elements">
+          <input class="submit_input" type='submit' value='Start a new game' />
+        </div>
+      </form>
+    </div>
+
+    <div class='used_letters'>
+      <p>
+        Used letters : <%= used_letters %>
+      </p>
+    </div>
+    <div class="message">
+      <p>
+        <%= message %>
+      </p>
+    </div>
+
+  </div>
+  <div class="picture">
+     <img src="<%= image_source %>" width="500px" />
+  </div>
+</main>
+</body>
+</html>
